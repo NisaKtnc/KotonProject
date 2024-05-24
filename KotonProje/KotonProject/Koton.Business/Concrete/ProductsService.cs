@@ -27,7 +27,7 @@ namespace Koton.Business.Concrete
         //    var product = _mapper.Map<ProductDto>(productDto);
         //    await _productRepository.AddAsync(Products);
         //}
-
+        ///
         //public async Task<Products> AddProduct(ProductDto productDto)
         //{
 
@@ -35,7 +35,7 @@ namespace Koton.Business.Concrete
         //    //return await _productRepository.AddAsync(productDto);
         //}
 
-        //Batuhan nisayı çok seviyor <3
+        
         public async Task<IEnumerable<Entities.Models.Products>> GetAllProductsAsync()
         {
 
