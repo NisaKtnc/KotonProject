@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
+using Koton.Entities.Models;
 
 namespace Koton.Business.DTO_s
 {
-    public class ProductDto : GeneralMapping
+    public class ProductDto : BaseEntity
     {
 
         public string ProductName { get; set; }
@@ -16,6 +17,8 @@ namespace Koton.Business.DTO_s
         public string ProductImage { get; set; }
         public string ProductDescription { get; set; }
         public double SalesPrice { get; set; }
+        public int CategoriesId { get; set; }
+
 
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koton.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5c19c922b5b34d13572b724e033f0100c0a0025")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8576609e573673b76bb1f05bce509365429ac199")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koton.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koton.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

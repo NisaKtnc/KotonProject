@@ -45,7 +45,6 @@ namespace Koton.Web.API.Controllers
             return await _productsService.AddProduct(productDto);
 
         }
-
-        
+       
     }
 }

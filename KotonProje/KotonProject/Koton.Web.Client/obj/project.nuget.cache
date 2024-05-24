@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kFSbhf2wMXVeaum6xHhi1MK9uQG5JuKZLvq5/HrnityAeEoDoXjVx9ERRFqJgC8DTCDPcA8/B/BQgB6Sd2p68w==",
-  "success": true,
+  "dgSpecHash": "lnl3c1CW5QjJQ7GUqlTzmZiix3T5vn9TdTH6WuZwuiLjmHq7sS77jT+UGWvc44VbjFYG8hPjkNBqs1yhx/DqeQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Nisa_\\OneDrive\\Masaüstü\\KotonProje_git\\KotonProject\\KotonProje\\KotonProject\\Koton.Web.Client\\Koton.Web.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nisa_\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
@@ -77,5 +77,15 @@
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: AutoMapper from 13.0.1 to 7.0.1. Reference the package directly from the project to select a different version. \r\n Koton.Web.Client -> Koton.Business -> AutoMapper (>= 13.0.1) \r\n Koton.Web.Client -> AutoMapper (>= 7.0.1)",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

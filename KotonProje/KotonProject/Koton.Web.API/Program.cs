@@ -6,7 +6,9 @@ using Koton.DAL.Concrete;
 using Koton.Business.Abstract;
 using Koton.Business.Concrete;
 using Koton.Entities.Context;
+using AutoMapper;
 using System.Reflection;
+using Koton.Business.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +21,7 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddAutoMapper(typeof(GeneralMapping));
 
 
 builder.Services.AddTransient<IProductsService, ProductsService>();

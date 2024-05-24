@@ -1320,7 +1320,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "AutoMapper": "7.0.1",
+          "AutoMapper": "13.0.1",
           "Koton.DAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.18",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.18"
@@ -3761,5 +3761,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: AutoMapper from 13.0.1 to 7.0.1. Reference the package directly from the project to select a different version. \r\n Koton.Web.Client -> Koton.Business -> AutoMapper (>= 13.0.1) \r\n Koton.Web.Client -> AutoMapper (>= 7.0.1)",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
