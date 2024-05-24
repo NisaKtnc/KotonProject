@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koton.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5c19c922b5b34d13572b724e033f0100c0a0025")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koton.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koton.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

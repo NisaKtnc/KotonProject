@@ -245,3 +245,4 @@ C:\Users\Nisa_\OneDrive\Masaüstü\KotonProje_git\KotonProject\KotonProje\KotonP
 C:\Users\Nisa_\OneDrive\Masaüstü\KotonProje_git\KotonProject\KotonProje\KotonProject\Koton.Web.API\obj\Debug\net7.0\Koton.Web.API.pdb
 C:\Users\Nisa_\OneDrive\Masaüstü\KotonProje_git\KotonProject\KotonProje\KotonProject\Koton.Web.API\obj\Debug\net7.0\Koton.Web.API.genruntimeconfig.cache
 C:\Users\Nisa_\OneDrive\Masaüstü\KotonProje_git\KotonProject\KotonProje\KotonProject\Koton.Web.API\obj\Debug\net7.0\ref\Koton.Web.API.dll
+C:\Users\Nisa_\OneDrive\Masaüstü\KotonProje_git\KotonProject\KotonProje\KotonProject\Koton.Web.API\bin\Debug\net7.0\AutoMapper.dll

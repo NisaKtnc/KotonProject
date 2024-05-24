@@ -39,13 +39,13 @@ namespace Koton.Web.API.Controllers
             return res;
         }
 
-        //[HttpPost("AddProduct")]
-        //public async Task<Koton.Entities.Models.Products> AddProducts(ProductDto productDto)
-        //{
-        //    return await _productsService.AddProduct(productDto);
+        [HttpPost("AddProduct")]
+        public async Task<Koton.Entities.Models.Products> AddProducts(ProductDto productDto)
+        {
+            return await _productsService.AddProduct(productDto);
 
-        //}
+        }
 
-        //ProductDto ve mapping
+        
     }
 }

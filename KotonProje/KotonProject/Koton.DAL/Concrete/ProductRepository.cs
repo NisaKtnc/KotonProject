@@ -32,5 +32,11 @@ namespace Koton.DAL.Concrete
         //{
         //    return await _dbContext.Product.AddAsync();
         //}
+        public async Task<Products> AddAsync(Products product)
+        {
+            var result = await _dbContext.Product.AddAsync(product);
+            await _dbContext.SaveChangesAsync();
+            return result.Entity;
+        }
     }
 }

@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 
 namespace Koton.Business.DTO_s
 {
-    public class ProductDto 
+    public class ProductDto : GeneralMapping
     {
 
         public string ProductName { get; set; }

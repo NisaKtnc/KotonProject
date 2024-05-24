@@ -14,7 +14,7 @@ namespace Koton.Business.Abstract
     {
         Task<IEnumerable<Products>> GetAllProductsAsync();
         Task<Entities.Models.Products> GetProductById(int Id);
-        //Task<Products> AddProduct(ProductDto productDto);
+        Task<Products> AddProduct(ProductDto productDto);
 
     }
 }
