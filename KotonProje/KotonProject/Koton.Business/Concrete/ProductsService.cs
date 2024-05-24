@@ -27,7 +27,6 @@ namespace Koton.Business.Concrete
         //    var product = _mapper.Map<ProductDto>(productDto);
         //    await _productRepository.AddAsync(Products);
         //}
-        ///
         //public async Task<Products> AddProduct(ProductDto productDto)
         //{
 
