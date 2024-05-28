@@ -57,7 +57,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[13.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -149,7 +149,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[13.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

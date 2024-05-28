@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NCAQ6xTC0EoS6eKr5MFVAw5PkkSWN7SsYQ2h5wKjg/sLzq1OfuJAZ6g6DIPPgVnihomLZqp6e/CZ8UXJp9EEOw==",
-  "success": false,
+  "dgSpecHash": "02JAgLiHWBpNd0JOwf6PRYTEbUNaYVPf3eBUUfhz1WD5veo1eHS+DpipiR7JKghsxrJDF+rIhWu4N6l4Li1rUg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Nisa_\\OneDrive\\Masaüstü\\KotonProje_git\\KotonProject\\KotonProject\\Koton.Web.Client\\Koton.Web.Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nisa_\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\Nisa_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -74,18 +74,7 @@
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Nisa_\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: AutoMapper from 13.0.1 to 7.0.1. Reference the package directly from the project to select a different version. \r\n Koton.Web.Client -> Koton.Business -> AutoMapper (>= 13.0.1) \r\n Koton.Web.Client -> AutoMapper (>= 7.0.1)",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koton.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9061abae4fe2675f5550fbcaaff6ac809babcb1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+138aa620298856efb726e0b0c37d5c45b3c9f33a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koton.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koton.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

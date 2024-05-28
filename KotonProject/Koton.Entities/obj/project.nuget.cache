@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1AUSEY2GO4LXFmyT2kjevHaS7xbeCai5NwGDj0fumq66NmcTeFqbxy38G3RiRfkJlTkrCTUbTpLhxS+8+INNjQ==",
+  "dgSpecHash": "AkHZF26DkfOInnQG4xHCzLCH1o4Bp0uX1yVevXsGWMPb+MUPyAslMe6ZNLgE/fBYx7lEHI0EmwvfmOFDLUf39A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nisa_\\OneDrive\\Masaüstü\\KotonProje_git\\KotonProject\\KotonProject\\Koton.Entities\\Koton.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nisa_\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\Nisa_\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -65,7 +65,6 @@
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Nisa_\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Nisa_\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []

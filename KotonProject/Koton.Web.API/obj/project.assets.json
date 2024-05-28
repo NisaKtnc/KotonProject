@@ -1209,7 +1209,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "AutoMapper": "7.0.1",
+          "AutoMapper": "13.0.1",
           "Koton.Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.18",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.18"
@@ -1225,7 +1225,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "AutoMapper": "7.0.1",
+          "AutoMapper": "13.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.18",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.18"
         },
