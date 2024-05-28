@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Customers : BaseEntity
+    public class Customer : BaseEntity
     {
-        public int CustomersId {  get; set; }
         public string CustomerName { get; set; }
         public string CustomerSurname { get; set; } 
         public string CustomerEmail { get; set; }   
@@ -23,10 +22,10 @@ namespace Koton.Entities.Models
         public string CustomerAdress { get; set; }
 
         // Navigation properties
-        public ICollection<Orders> Order { get; set; }
+        public ICollection<Order> Order { get; set; }
         public ICollection<Cart> Carts { get; set; }
 
-        public ICollection<Reviews> Review { get; set; }
+        public ICollection<Review> Review { get; set; }
 
 
     }

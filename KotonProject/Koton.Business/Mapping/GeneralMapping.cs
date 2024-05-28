@@ -9,7 +9,7 @@ namespace Koton.Business.Mapping
         public GeneralMapping()
         {
 
-            CreateMap<ProductDto,Products>().ReverseMap();
+            CreateMap<ProductDto,Product>().ReverseMap();
             
                     
         }

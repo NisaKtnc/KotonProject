@@ -25,14 +25,14 @@ namespace Koton.Web.API.Controllers
             _productsService = productsService;
         }
         [HttpGet("GetAllProducts")]
-        public async Task<IEnumerable<Koton.Entities.Models.Products>> GetAllProducts()
+        public async Task<IEnumerable<Koton.Entities.Models.Product>> GetAllProducts()
         {
             var res = await _productsService.GetAllProductsAsync();
             return res;
             //Tüm verileri çekmek için kullanılan method
         }
         [HttpGet("GetById")]
-        public async Task<Koton.Entities.Models.Products> GetById(int Id)
+        public async Task<Koton.Entities.Models.Product> GetById(int Id)
         {
             var res = await _productsService.GetProductById(Id);
 
@@ -40,7 +40,7 @@ namespace Koton.Web.API.Controllers
         }
 
         [HttpPost("AddProduct")]
-        public async Task<Koton.Entities.Models.Products> AddProducts(ProductDto productDto)
+        public async Task<Koton.Entities.Models.Product> AddProducts(ProductDto productDto)
         {
             return await _productsService.AddProduct(productDto);
 

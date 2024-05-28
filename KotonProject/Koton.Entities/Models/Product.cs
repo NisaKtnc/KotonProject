@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Products : BaseEntity
+    public class Product : BaseEntity
     {
-        public int ProductsId { get; set; }
-        public int? ReviewsId { get; set; }
+        public int? ReviewId { get; set; }
         public string ProductName { get; set; }
         public int? SizeId { get; set; } 
-        public int CategoriesId { get; set; } 
+        public int CategoryId { get; set; } 
         public int ProductStock {  get; set; }
         public double ProductPrice { get; set; }
         public string ProductImage { get; set; }   
@@ -22,10 +21,10 @@ namespace Koton.Entities.Models
 
         
         public ICollection<Cart> Carts{ get; set; }
-        public Categories Category {  get; set; }
+        public Category Category {  get; set; }
         public Size Sizes { get; set; }
-        public ICollection<Reviews> Review { get; set; }
-        public ICollection<Order_details> OrderDetails { get; set; }
+        public ICollection<Review> Review { get; set; }
+        public ICollection<OrderDetail> OrderDetails { get; set; }
 
 
     }

@@ -22,21 +22,21 @@ namespace Koton.Business.Concrete
             this._productRepository = productRepository; 
             this._mapper = mapper;
         }      
-        public async Task<Products> AddProduct(ProductDto productDto)
+        public async Task<Product> AddProduct(ProductDto productDto)
         {
-            var product = _mapper.Map<Products>(productDto);                      
+            var product = _mapper.Map<Product>(productDto);                      
             await _productRepository.AddAsync(product);
 
             return product;
         }
-        public async Task<IEnumerable<Entities.Models.Products>> GetAllProductsAsync()
+        public async Task<IEnumerable<Entities.Models.Product>> GetAllProductsAsync()
         {
 
             return await _productRepository.GetAllAsync();
 
         }
 
-        public async Task<Products> GetProductById(int Id)
+        public async Task<Product> GetProductById(int Id)
         {
             return await _productRepository.GetByIdAsync(Id);
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Koton.DAL.Abstract
 {
-    public interface IOrderRepository : IRepository<Orders>
+    public interface IOrderRepository : IRepository<Order>
     {
     }
 }

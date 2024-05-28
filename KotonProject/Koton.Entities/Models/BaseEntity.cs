@@ -17,6 +17,7 @@ namespace Koton.Entities.Models
         public string DeletedUsername { get; set; } = "Niniko";
         public bool IsActive { get; set; } = false;
         public bool IsDeleted { get; set; } = false;
+        public int Id { get; set; }
 
         public BaseEntity() 
         {

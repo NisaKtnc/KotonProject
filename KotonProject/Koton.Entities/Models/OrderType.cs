@@ -8,16 +8,10 @@ namespace Koton.Entities.Models
 {
     public class OrderType : BaseEntity
     {
-        public int OrderTypeId { get; set; }
-        public int OrdersId { get; set; }
+        public int OrderId { get; set; }
         public string OrderTypeName { get; set; }
         public string OrderTypeDescription { get; set; }
-
-
-
-        public Orders Orders { get; set; }
-
-        
+        public Order Orders { get; set; } 
 
     }
 }

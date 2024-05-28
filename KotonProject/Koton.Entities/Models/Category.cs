@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Categories : BaseEntity
+    public class Category : BaseEntity
     {
-        public int CategoriesId { get; set; } 
         public string CategoryName { get; set; }
         
-        public ICollection<Products> Product { get; set; }
+        public ICollection<Product> Product { get; set; }
     }
 }

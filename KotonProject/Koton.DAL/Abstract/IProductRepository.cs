@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Koton.DAL.Abstract
 {
-    public interface IProductRepository : IRepository<Products>
+    public interface IProductRepository : IRepository<Product>
     {
         
     }

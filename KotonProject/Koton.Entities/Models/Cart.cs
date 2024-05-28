@@ -8,15 +8,14 @@ namespace Koton.Entities.Models
 {
     public class Cart : BaseEntity
     {
-        public int CartId { get; set; }
-        public int ProductsId { get; set; }        
-        public int CustomersId { get; set; }
+        public int ProductId { get; set; }        
+        public int CustomerId { get; set; }
         public int Quantity { get; set; }
         public double CartTotalPrice { get; set; } 
 
 
-        public Customers Customer { get; set; }
-        public Products Product { get; set; }
+        public Customer Customer { get; set; }
+        public Product Product { get; set; }
 
 
     }

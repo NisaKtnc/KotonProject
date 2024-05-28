@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Orders : BaseEntity
+    public class Order : BaseEntity
     {
-        public int OrdersId { get; set; }   
-        public int CustomersId { get; set; }
+        public int CustomerId { get; set; }
         public string OrderStatus { get; set; } 
         public string OrderAddress { get; set; }
         public double OrderTotalPrice { get; set; } 
@@ -20,9 +19,9 @@ namespace Koton.Entities.Models
         public int OrderCurrency {  get; set; }
 
         // Navigation properties
-        public Customers Customer { get; set; }
+        public Customer Customer { get; set; }
         public Payment Payments { get; set; }
-        public ICollection<Order_details> OrderDetails { get; set; }
+        public ICollection<OrderDetail> OrderDetails { get; set; }
         public ICollection<OrderType> OrderTypes { get; set; }
 
 

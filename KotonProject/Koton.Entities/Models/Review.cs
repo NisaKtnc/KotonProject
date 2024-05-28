@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Reviews : BaseEntity
+    public class Review : BaseEntity
     {
-        public int ReviewsId { get; set; }
-        public int ProductsId { get; set; }
-        public int CustomersId { get; set; }
+        
+        public int ProductId { get; set; }
+        public int CustomerId { get; set; }
         public double Ratings { get; set; }
         public string ReviewsTitle { get; set; }
         public string ReviewsDescription { get; set; }
         public string ReviewsStatus { get; set; }
         public string ReviewsImage { get; set; }
-        public Customers Customer { get; set; }
-        public Products Product { get; set; }
+        public Customer Customer { get; set; }
+        public Product Product { get; set; }
 
     }
 }

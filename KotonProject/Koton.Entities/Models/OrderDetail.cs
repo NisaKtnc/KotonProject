@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Koton.Entities.Models
 {
-    public class Order_details : BaseEntity
+    public class OrderDetail : BaseEntity
     {
-        public int Order_detailsId { get; set; }
         public int OrderId { get; set; }
-        public int ProductsId { get; set; }
+        public int ProductId { get; set; }
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }   
         public double ShippingCost { get; set; }
@@ -22,8 +21,8 @@ namespace Koton.Entities.Models
         public double TaxRate { get; set; }
 
         // Navigation properties
-        public Orders Order { get; set; }
-        public Products Product { get; set; }
+        public Order Order { get; set; }
+        public Product Product { get; set; }
 
 
     }

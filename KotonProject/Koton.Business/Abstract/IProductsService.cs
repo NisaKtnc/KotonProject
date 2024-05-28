@@ -12,9 +12,9 @@ namespace Koton.Business.Abstract
 {
     public interface IProductsService
     {
-        Task<IEnumerable<Products>> GetAllProductsAsync();
-        Task<Entities.Models.Products> GetProductById(int Id);
-        Task<Products> AddProduct(ProductDto productDto);
+        Task<IEnumerable<Product>> GetAllProductsAsync();
+        Task<Entities.Models.Product> GetProductById(int Id);
+        Task<Product> AddProduct(ProductDto productDto);
 
     }
 }

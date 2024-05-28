@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Koton.DAL.Concrete
 {
-    public class ProductRepository : Repository<Products>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly KotonDbContext _dbContext;
        
@@ -19,22 +19,22 @@ namespace Koton.DAL.Concrete
             _dbContext = kotonDbContext;           
         }
 
-        public async Task<IEnumerable<Products>> GetAllProductAsync()
+        public async Task<IEnumerable<Product>> GetAllProductAsync()
         {
-            return await _dbContext.Product.ToListAsync();
+            return await _dbContext.Products.ToListAsync();
         }
 
-        public async Task<Products> GetProductByIdAsync(int id)
+        public async Task<Product> GetProductByIdAsync(int id)
         {
-            return await _dbContext.Product.FindAsync(id);
+            return await _dbContext.Products.FindAsync(id);
         }
         //public async Task<Products> AddAsync()
         //{
         //    return await _dbContext.Product.AddAsync();
         //}
-        public async Task<Products> AddAsync(Products product)
+        public async Task<Product> AddAsync(Product product)
         {
-            var result = await _dbContext.Product.AddAsync(product);
+            var result = await _dbContext.Products.AddAsync(product);
             await _dbContext.SaveChangesAsync();
             return result.Entity;
         }

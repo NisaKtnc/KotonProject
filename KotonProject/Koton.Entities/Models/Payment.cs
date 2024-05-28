@@ -8,11 +8,10 @@ namespace Koton.Entities.Models
 {
     public class Payment : BaseEntity
     {
-        public int PaymentId { get; set; }
         public string PaymentMethod { get; set; }
         public string PaymentGateway { get; set; }
 
 
-        public ICollection<Orders> Order { get; set; }
+        public ICollection<Order> Order { get; set; }
     }
 }
