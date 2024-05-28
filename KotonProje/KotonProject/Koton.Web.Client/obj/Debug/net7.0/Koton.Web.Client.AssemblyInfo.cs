@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koton.Web.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8576609e573673b76bb1f05bce509365429ac199")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+100bc22fa5f82d2eb09a0d540fe91cd120039e26")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koton.Web.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koton.Web.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
